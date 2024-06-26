@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "pumps",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "fid": 1 }, "geometry": { "type": "Point", "coordinates": [ 13.193179777435473, 55.703035292540825 ] } },
+{ "type": "Feature", "properties": { "fid": 2 }, "geometry": { "type": "Point", "coordinates": [ 13.188528866324308, 55.69540830522994 ] } },
+{ "type": "Feature", "properties": { "fid": 3 }, "geometry": { "type": "Point", "coordinates": [ 13.211537895633651, 55.701435166233608 ] } },
+{ "type": "Feature", "properties": { "fid": 4 }, "geometry": { "type": "Point", "coordinates": [ 13.213383367502509, 55.699002531213992 ] } },
+{ "type": "Feature", "properties": { "fid": 5 }, "geometry": { "type": "Point", "coordinates": [ 13.181823182281377, 55.69794153738129 ] } },
+{ "type": "Feature", "properties": { "fid": 6 }, "geometry": { "type": "Point", "coordinates": [ 13.176839200729271, 55.704671640274697 ] } },
+{ "type": "Feature", "properties": { "fid": 7 }, "geometry": { "type": "Point", "coordinates": [ 13.187408904388331, 55.704388714640729 ] } },
+{ "type": "Feature", "properties": { "fid": 8 }, "geometry": { "type": "Point", "coordinates": [ 13.186125929125069, 55.705218491731195 ] } },
+{ "type": "Feature", "properties": { "fid": 9 }, "geometry": { "type": "Point", "coordinates": [ 13.184376051491489, 55.708535723118651 ] } },
+{ "type": "Feature", "properties": { "fid": 10 }, "geometry": { "type": "Point", "coordinates": [ 13.185207218211058, 55.711559595358054 ] } },
+{ "type": "Feature", "properties": { "fid": 11 }, "geometry": { "type": "Point", "coordinates": [ 13.180337195049772, 55.714519180663657 ] } },
+{ "type": "Feature", "properties": { "fid": 12 }, "geometry": { "type": "Point", "coordinates": [ 13.20936564241933, 55.720227412192379 ] } },
+{ "type": "Feature", "properties": { "fid": 13 }, "geometry": { "type": "Point", "coordinates": [ 13.227363521289679, 55.718638191929145 ] } },
+{ "type": "Feature", "properties": { "fid": 14 }, "geometry": { "type": "Point", "coordinates": [ 13.172898957287865, 55.740753371884431 ] } },
+{ "type": "Feature", "properties": { "fid": 15 }, "geometry": { "type": "Point", "coordinates": [ 13.200148345625623, 55.751348125904343 ] } }
+]
+}
