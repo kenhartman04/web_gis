@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="css/map.css" />
+    <!-- Leaflet Routing Machine -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.css"
+    />
+    <!-- Leaflet Control Geocoder -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-sidebar-v2/css/leaflet-sidebar.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-swipe/leaflet-swipe.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div id="title">
+          <h1>Cycling in Lund</h1>
+        </div>
+        <ul class="links">
+          <li><a href="home">Home</a></li>
+          <li><a href="map-container">Map</a></li>
+          <li><a href="contact">Contact Us</a></li>
+          <li><a href="about">About</a></li>
+        </ul>
+      </div>
+      <div id="base"></div>
+    </header>
+    <div id="info-paragraph">
+      <p>
+        Lund is #### and ####. According to Civitas, it is estimated that 66% of transportation
+        happens via pedestrian walking and cycling Welcome to cycle Lund! Use the tool below to find
+        the nearest bicycle pump. Just click on your estimated location and the web map will show
+        you the directions to the nearest bike pump.
+      </p>
+    </div>
+    <div id="map-container">
+      <div id="map"></div>
+      <div id="sliderContainer">
+        <input type="range" min="0" max="100" value="100" id="opacitySlider" />
+      </div>
+    </div>
+    <div id="contact">
+      <h2>Contact Us</h2>
+      <p>Kendall Hartman</p>
+      <p>+1 713-294-4415</p>
+      <p>kenhartman04@gmail.com</p>
+      <!-- Add your contact information here -->
+    </div>
+    <!-- Include Leaflet JavaScript -->
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <!-- Include Leaflet.ajax -->
+    <script src="https://unpkg.com/leaflet-ajax/dist/leaflet.ajax.min.js"></script>
+
+    <!-- Include Leaflet Routing Machine -->
+    <script src="https://unpkg.com/leaflet-routing-machine/dist/leaflet-routing-machine.js"></script>
+
+    <!-- Include Leaflet.GeometryUtil -->
+    <script src="https://unpkg.com/browse/leaflet-draw@1.0.3/docs/examples/libs/leaflet.geometryutil.js"></script>
+
+    <!-- Include Leaflet Control Geocoder -->
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+
+    <!-- Include your custom JavaScript -->
+    <script src="js/getMap.js"></script>
+
+    <!-- Leaflet Sidebar -->
+    <script src="https://unpkg.com/leaflet-sidebar-v2/js/leaflet-sidebar.min.js"></script>
+    <script src="https://unpkg.com/leaflet-swipe/leaflet-swipe.js"></script>
+  </body>
+</html>
